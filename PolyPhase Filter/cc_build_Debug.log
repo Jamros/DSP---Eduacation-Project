@@ -1,0 +1,14 @@
+-------------------------  analiza_widma.pjt - Debug  -------------------------
+[analiza_widma.cdb] "C:\Ti3\plugins\bios\gconfgen" analiza_widma.cdb
+
+[analiza_widma.c] "C:\Ti3\C6000\cgtools\bin\cl6x" -g -fr"D:/226821/Projekt_3/Debug" -d"_DEBUG" -ml0 -mv6700 -@"Debug.lkf" "analiza_widma.c"
+
+[analiza_widmacfg.s62] "C:\Ti3\C6000\cgtools\bin\cl6x" -g -fr"D:/226821/Projekt_3/Debug" -d"_DEBUG" -ml0 -mv6700 -@"Debug.lkf" "analiza_widmacfg.s62"
+
+[analiza_widmacfg_c.c] "C:\Ti3\C6000\cgtools\bin\cl6x" -g -fr"D:/226821/Projekt_3/Debug" -d"_DEBUG" -ml0 -mv6700 -@"Debug.lkf" "analiza_widmacfg_c.c"
+
+[Linking...] "C:\Ti3\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

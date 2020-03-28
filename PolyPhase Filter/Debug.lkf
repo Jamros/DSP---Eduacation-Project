@@ -1,0 +1,6 @@
+-z -c -m"./Debug/analiza_widma.map" -o"./Debug/analiza_widma.out" -w -x -i"C:/Ti3/C6000/dsk6713/lib" -i"C:/Ti3/c6000/bios/lib" -i"C:/Ti3/C6000/rtdx/lib" -i"C:/Ti3/c6000/xdais/lib" -i"C:/Ti3/C6000/cgtools/lib"
+"D:\226821\Projekt_3\analiza_widmacfg.cmd"
+"D:\226821\Projekt_3\Debug\analiza_widma.obj"
+"D:\226821\Projekt_3\Debug\analiza_widmacfg.obj"
+"D:\226821\Projekt_3\Debug\analiza_widmacfg_c.obj"
+"D:\226821\Projekt_3\dsp67xc3.lib"

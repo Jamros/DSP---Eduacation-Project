@@ -1,0 +1,42 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="D:\226821\Projekt_3\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="analiza_widma.c"
+Source="analiza_widma.cdb"
+Source="dsp67xc3.lib"
+Source="filtr_5khz.h"
+
+[Generated Files]
+Source="analiza_widmacfg.cmd"
+Source="analiza_widmacfg.s62"
+Source="analiza_widmacfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -d"_DEBUG" -ml0 -mv6700
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\analiza_widma.map" -o".\Debug\analiza_widma.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\analiza_widma.map" -o".\Release\analiza_widma.out" -w -x
+
+["filtr_5khz.h" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["filtr_5khz.h" Settings: "Release"]
+ExcludeFromBuild=true
+
